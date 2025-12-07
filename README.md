@@ -13,7 +13,7 @@
 ## 📦 Installation
 
 ```bash
-npm i discord-arts@latest
+npm i github:Queenrrose/qqwq
 ```
 
 ## ✨ Features
@@ -84,7 +84,7 @@ Generate a profile image card for a user or bot, including badges and custom opt
 
 ```javascript
 const { AttachmentBuilder } = require('discord.js');
-const { profileImage } = require('discord-arts');
+const { profileImage } = require('discord-arts-22');
 
 await interaction.deferReply();
 const user = interaction.options.getUser('user-option');
